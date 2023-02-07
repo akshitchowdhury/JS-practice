@@ -1,0 +1,6 @@
+<body style="background-image: url(img/images\ \(27\).jpeg); 
+opacity: 90% (text appears dominant/visible)
+background-repeat: no-repeat;
+background-repeat: repeat-x (repitition in x axis)
+background-repeat: repeat-y (repitition in y axis)
+background-size: contain;">

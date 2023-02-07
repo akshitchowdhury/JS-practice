@@ -1,0 +1,11 @@
+Below rule is applicable with styles of same tags: 
+
+1. Inline styles are give 1st priority.
+For eg:
+ <p style="color: blue"> 
+   text </p>
+2. style tags/ link tags whichever is read at the bottom of page is finally applied
+
+**Styles with class selectors are given more priority than tags because they are more specific**
+**Similarly id is most specific**
+** ID-name>Class-name>tag-name **

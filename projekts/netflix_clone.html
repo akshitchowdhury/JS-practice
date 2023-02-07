@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body style="background-color: snow; padding-top: 50px;" >
+<div class="main" >
+    <div>
+    <h1>Streaming Platforms</h1>
+</div>
+<br><br>
+
+
+<div class="logo">
+   <button class="btn">
+    <img src="img/crunchy.jpg" >
+</button>
+</div>
+
+<div class="logo">
+    <button class="btn">
+    <img src="img/Netflix-Revamps-Logo-1280x720.jpg" >
+</button>
+</div>
+
+<div class="logo">
+    <button class="btn">
+   <img src="img/amazon-prime.webp" >
+</button>
+</div>
+
+</div>
+<br>
+
+<div style="text-align: center; padding-top: 40px;">
+    <button class="profile" onclick="color()">
+
+        Click for effect
+    </button>
+</div>
+<!-- <a href="struc.html">survey</a> -->
+
+<script>
+    var store = ['red','blue','black']
+    function color(){
+       var color =  document.getElementsByTagName('body')[0]
+    
+    
+    
+       color.style.backgroundColor = store[1]
+      
+       
+    
+    
+    }
+  
+</script>
+</body>
+</html>

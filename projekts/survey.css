@@ -1,0 +1,15 @@
+
+input{
+    display: block;
+}
+
+td{
+    display: inline-block;
+}
+
+.in{
+    display: inline-block;
+}
+label{
+    font-size: 20px;
+}

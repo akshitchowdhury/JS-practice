@@ -1,0 +1,84 @@
+<html>
+    <head>
+
+ 
+    </head>
+<body>
+
+    <h2  class="Header">
+        This is Heading2 of the Purgatory
+    </h2>
+
+    <h3  class="Header">
+        This is Heading 3 of the Purgatory
+    </h3>
+    
+ <p class="Paragraph">
+    This is Paragraph 1!
+ </p>
+
+ <p class="Paragraph">
+    This is Paragraph 2
+ </p>
+<div id ="d">
+ This is a sample division.
+</div>
+<p class="Para">
+    This is the cave of the Shuras.
+</p>
+
+<button onclick="Clickhere()">
+    Magic
+    </button>
+
+    <button onclick="background()">
+        Change bkground here
+        
+    </button>
+
+    
+<script>
+
+   function background(){
+
+    document.getElementsByTagName('p')[2].style.backgroundColor = 'red'
+
+   }
+
+   function Clickhere(){
+
+     document.getElementsByTagName('p')[2].style.color = 'blue'
+
+   }
+
+    var show = 
+        document.getElementsByClassName("Paragraph")
+    
+    console.log(show)
+
+    
+
+     var div = document.getElementById('d')
+
+     div.innerHTML = "<h1> We are Back </h1>"
+
+    var heads = document.getElementsByClassName('Header')
+    
+      for(var i=0; i<heads.length; i++){
+
+        heads[i].innerText = "Headingss"
+        console.log(heads[i])
+      }
+
+for(var j=0; j<show.length; j++){
+
+    console.log(show[j]);
+    show[j].innerText = "PAragraph baby..Paragraphs! "
+}
+
+
+</script>
+
+</body>
+
+    </html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore earum nemo perferendis! Architecto labore
+        veniam ratione omnis quos. Amet minima dolorum sapiente repellendus expedita delectus sint incidunt animi fuga
+        eligendi?
+    </p>
+    <p id="tagger">
+        NAruto shippuden
+    </p>
+
+    
+    <script>
+        setTimeout(function () {
+           
+           var classy = document.getElementsByClassName('para')
+             classy[0].innerHTML = '<img src="img/naruto1.jpg" style="height: 300px; width: 300px;">'
+        
+        }, 10000)
+
+        var tag = document.getElementById('tagger')
+        
+
+        setTimeout(function(){
+            tag.innerText = 'BLEACH : Thousand Year Blood War'
+        }, 5000)
+
+    </script>
+</body>
+
+</html>
+<!-- 
+<img src=img/NarutoCoverTankobon1.jpg style=height: 300px ; width: 300px;> -->

@@ -1,0 +1,68 @@
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;
+    object-fit: fill ;
+    
+}
+.btn{
+    
+    width: 300px;
+    height: 300px;
+    background-size: 100%;
+    border-radius: 70%;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    cursor: grab;
+    
+
+}
+button{
+    transition: transform .7s ease-in-out;
+}
+button :hover{
+    transform: rotate(360deg);
+}
+
+img{
+    transition: transform .7s ease-in-out;
+}
+img :hover{
+    transform: rotate(360deg);
+}
+
+
+.main{
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    display: inline-block;
+    margin: 50px;
+}
+
+/* .logo{
+    transition: transform .7s ease-in-out;
+}
+
+.logo :hover{
+    transform: rotate(360deg);
+} */
+.profile{
+    background-color: inherit;
+
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: grab;
+    border-style: groove;
+
+}
+
+.profile:hover {
+
+    transform: rotate(360deg);
+}

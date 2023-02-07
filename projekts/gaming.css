@@ -1,0 +1,46 @@
+/* button{
+    border: none;
+   
+      border-radius: 200px;
+    margin: none;
+
+    width: 35%;
+    height: 35%;
+    text-align: right;
+    
+}
+#ealogo{
+    border-radius: 200px;
+    border: none;
+    margin: none;
+    width: 35%;
+    height: 35%;
+    object-fit: fill;
+} */
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    border: none;
+    margin: none;
+    padding: 0 0 0 0;
+
+}
+
+
+
+#ealogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+}
+
+#ealogo{
+    transition: transform .7s ease-in-out;
+}
+
+#ealogo:hover{
+transform: rotate(360deg)
+}
+

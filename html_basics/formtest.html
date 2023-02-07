@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From prototype</title>
+</head>
+<body>
+    <h1>Welcome to the bio-data page</h1>
+    <hr>
+    <form action="input_types.html" method="post">  <!--action refers to the link page on submission/the linked backend url-->
+
+        <!---method refers to the type of submission.(get/post/dialog). Post method sends the data with privacy-->
+        
+        <label for="name">Enter Name</label>
+        <input type="text" required>
+        <label for="Date">Date</label>
+        <input type="datetime-local" required>     <!--required attribute makes sure the boxes aren't submitted empty-->
+        <label for="Passcode">password</label>
+        <input type="password" required>
+        <label for="Quantity">Numbers</label>
+        <input type="number" required>
+        <label for="adress">Adress BLock</label>
+        <textarea  id="adress" required>
+         </textarea>                                <!--syntax/tag for text box area to input large lines of text-->
+        <label for="city">Cities</label> 
+        <select name="city" id="city">
+            <option selected value="BNG">Bangalore</option>  <!--'selected' attribute sets it as default value-->
+            <option value="DIB">Dibrugarh</option>               <!--syntax for dropdown box creation via <select> and <option> tags together-->
+            <option value="DEL" >Delhi</option>
+            <option value="GHY">Guwahati</option>       <!--The 'value' attribute act as codes which are sent to the backend durig form submission-->
+            <option value="HYD" >Hyderabad</option>
+        </select>
+         <button>Click to submit</button>
+    
+    </form>
+</body>
+</html>

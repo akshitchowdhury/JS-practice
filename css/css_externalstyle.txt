@@ -1,0 +1,5 @@
+External styling:
+
+1.Have a basic htm file
+2. Create a css file with .css extension
+3.use link tag and adress path of css to link css and html page  [ <link rel="stylesheet" href="">]

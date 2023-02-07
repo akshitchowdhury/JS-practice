@@ -1,0 +1,37 @@
+.imager{
+
+    border: 10pt solid black;
+}
+
+
+.feature{
+
+    align-items: center;
+    border: 2pt solid blueviolet;
+    
+}
+
+
+
+.logoimg{
+    display: block; 
+    margin: auto;
+}
+/* .divider{
+
+    padding-left: 100px;
+    padding-top: 200px;
+} */
+.tabler{
+    border: 2pt solid black;
+    font-size: large;
+    align-content: center;
+    font-family: cursive;
+   
+    height: 100px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+}

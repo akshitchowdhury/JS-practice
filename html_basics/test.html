@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 700px ; height: 600px; background-color: antiquewhite; background-size: contain; ">
+    <button id="bt1">
+    <b> -->>> </b>
+    </button>
+
+    <button id="bt2" style="position: absolute; left: 672px;">
+        <b>
+            <<--
+        </b>
+    </button>
+</div>
+<script>
+
+var block = document.querySelector('div')
+
+var bt1 = document.getElementById('bt1')
+
+var bt2 = document.getElementById('bt2')
+
+var store = ["url(pics/shura.jpg)","url(pics/crysis1.jpg)"," url(pics/Crysis_2_cover.png)"," url(pics/Crysis_3_cover.jpg)"]
+
+
+
+
+var i = 0
+var j = 3
+bt1.addEventListener('click',function(){
+
+block.style.backgroundImage = store[i]
+i = (i+1)% store.length
+
+
+})
+
+bt2.addEventListener('click',function(){
+
+block.style.backgroundImage = store[j]
+j = (j-1)% store.length
+
+
+})
+
+
+
+
+</script>
+</body>
+</html>

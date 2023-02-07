@@ -1,0 +1,37 @@
+Inline styling :
+<body>
+<p style ="color : blue; border : solid black>
+text
+</p>
+
+**disadv for styling multiple property in html
+
+Internal styling:
+
+<title>
+<style>
+p {color : blue;        [give tag name and then property] 
+border : solid black}
+</style>
+</title>
+
+<body>
+<p >
+Shakalaka boom
+</p>
+</body>
+
+Internal styling with class:
+
+<title>
+<style>
+.boom {color : blue;        [give class name by dot and then property] 
+border : solid black}
+</style>
+</title>
+
+<body>
+<p class ="boom">
+Shakalaka boom
+</p>
+</body>
