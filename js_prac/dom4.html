@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Change the content of a cell</title>
+<style type="text/css">
+body {margin: 30px;}
+</style>  
+</head><body>
+<table id="myTable" border="1">
+</table><form>
+<input type="button" onclick="createTable()" value="Create the table">
+</form>
+
+<script>
+    function createTable(){
+
+       var item= document.querySelector('table')
+        var c1= item.insertRow(-1).insertCell(-1).innerHTML = 'C1'
+       
+    
+    }
+</script>
+
+</body></html>
